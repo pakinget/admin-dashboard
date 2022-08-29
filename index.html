@@ -6,26 +6,37 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Admin Dashboard</title>
+		<link rel="stylesheet" href="style.css">
 	</head>
 
 	<body>
 		<div class="container">
-			<header>
+			<header class="vertFlex">
 				<div class="horFlex">
-					<div class="searchIcon"></div>
-					<div class="search"></div>
+					<div class="horFlex">
+						<div class="searchIcon"></div>
+						<div class="searchBar"></div>
+					</div>
+					<div class="horFlex">
+						<div class="notifications"></div>
+						<div class="avatarSmall person"></div>
+						<div class="name">Ivanio Somethingelli</div>
+					</div>
 				</div>
-				<div class="notifications"></div>
-				<div class="avatarSmall person"></div>
-				<div class="name">Ivanio Somethingelli</div>
-				<div class="avatarBig person"></div>
-				<div class="vertFlex">
-					<p class="hello">Hello there,</p>
-					<p class="nickname">Ivanio Somethingelli (@pakinget)</p>
+				<div class="horFlex">
+					<div class="horFlex">
+						<div class="avatarBig person"></div>
+						<div class="vertFlex">
+							<p class="hello">Hello there,</p>
+							<p class="nickname">Ivanio Somethingelli (@pakinget)</p>
+						</div>
+					</div>
+					<div class="horFlex">
+						<buttons class="headerButton">New</buttons>
+						<buttons class="headerButton">Upload</buttons>
+						<buttons class="headerButton">Share</buttons>
+					</div>
 				</div>
-				<buttons class="headerButton">New</buttons>
-				<buttons class="headerButton">Upload</buttons>
-				<buttons class="headerButton">Share</buttons>
 			</header>
 			<div class="sidebar">
 				<div>
