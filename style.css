@@ -226,3 +226,16 @@ main {
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: repeat(3, 1fr);
 }
+
+.headerButton {
+	background-color: #1992d4;
+	color: #FFFFFF;
+	border-radius: 30%;
+	padding: 1vh 1vw;
+	user-select: none;
+}
+
+.headerButton:hover {
+	cursor: pointer;
+	background-color: #1578AD;
+}
