@@ -403,6 +403,7 @@ header {
 	grid-template-rows: repeat(3, 3rem);
 	padding: 2vh 1vw;
 	gap: 2vh;
+	align-items: center;
 }
 
 .mainGrid {
