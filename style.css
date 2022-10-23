@@ -294,12 +294,16 @@ header {
 	gap: 1vw;
 }
 
-.searchBar {
+#searchBar {
 	background-color: #CCCCCC;
 	border-radius: 50px;
 	height: 1.5rem;
+	border: 0;
+    border-radius: 32px;
+    outline: 0;
+	padding-left: 0.4rem;
 }
-/*  */
+
 .avatarSmall {
 	height: 3rem;
 	width: 3rem;
