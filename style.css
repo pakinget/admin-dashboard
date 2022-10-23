@@ -129,6 +129,16 @@ table {
 	border-spacing: 0;
 }
 
+
+
+
+
+/*---------------------------End of cleaning---------------------------*/
+
+
+
+
+
 body {
 	height: 100vh;
 	width: 100vw;
@@ -143,18 +153,7 @@ body {
 	min-height: 100vh;
 }
 
-header {
-	grid-column: 2 / 6;
-	grid-row: 1 / 2;
-}
-
-main {
-	grid-column: 2 / 6;
-	grid-row: 2 / 6;
-}
-
 .sidebar {
-	grid-column: 1 / 2;
 	grid-row: 1 / 6;
 	display: grid;
 	grid-template-columns: repeat(2, 1.5rem) 1fr;
@@ -170,11 +169,6 @@ main {
 .vertFlex {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
-}
-
-.searchBar {
-	flex: 1;
 }
 
 .horFlex {
@@ -193,11 +187,7 @@ main {
 }
 
 .projects {
-	display: grid;
-	grid-template-rows: 1.3rem 1fr;
-	grid-column: 1 / 2;
-	grid-row: 1 / 3;
-	gap: 2vh;
+	grid-row: 1 / 3; 
 }
 
 .project {
@@ -210,8 +200,6 @@ main {
 }
 
 .yellowLine {
-	grid-column: 1 / 2;
-	grid-row: 1 / 9;
 	background-color: #F6CA3B;
 	width: 0.4vw;
 	border-top-left-radius: 5px;
@@ -221,20 +209,6 @@ main {
 .flexEnd {
 	justify-content: flex-end;
 	gap: 1vw;
-}
-
-.projectName {
-	grid-row: 1 / 2;
-}
-
-.projectDesc {
-	grid-row: 2 / 3
-}
-
-.projectsCont {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-template-rows: repeat(3, 1fr);
 }
 
 .headerButton {
@@ -264,10 +238,6 @@ main {
 	width: 1.5rem;
 	justify-self: center;
 	background-size: contain;
-}
-
-.sidebarText {
-	grid-column: 3 / 4;
 }
 
 .title {
@@ -340,9 +310,8 @@ header {
 	background-color: #CCCCCC;
 	border-radius: 50px;
 	height: 1.5rem;
-	width: min(45rem, 1fr);
 }
-
+/*  */
 .avatarSmall {
 	height: 3rem;
 	width: 3rem;
