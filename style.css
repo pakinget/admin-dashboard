@@ -129,19 +129,7 @@ table {
 	border-spacing: 0;
 }
 
-
-
-
-
-/*---------------------------End of cleaning---------------------------*/
-
-
-
-
-
 body {
-	height: 100vh;
-	width: 100vw;
 	font-family: sans-serif;
 	font-weight: 600;
 }
@@ -354,6 +342,7 @@ header {
 	background: #FFFFFF;
 	border-radius: 5px;
 	padding: 2vh 1vw;
+	box-shadow:	0px 2px 5px -5px rgba(0, 0, 0, 0.75)
 }
 
 .annGrid>div {
@@ -373,7 +362,7 @@ header {
 	padding: 2vh 1vw;
 	gap: 2vh;
 	align-items: center;
-	
+	box-shadow: 0px 2px 5px -5px rgba(0, 0, 0, 0.75)
 }
 
 .mainGrid {
