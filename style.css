@@ -370,16 +370,17 @@ header {
 	background: #FFFFFF;
 	display: grid;
 	grid-template-columns: 3rem 1fr;
-	grid-template-rows: repeat(3, 3rem);
 	padding: 2vh 1vw;
 	gap: 2vh;
 	align-items: center;
+	
 }
 
 .mainGrid {
 	display: grid;
 	grid-template-rows: 1.3rem 1fr;
 	gap: 2vh;
+	
 }
 
 .trendInfoGrid {
